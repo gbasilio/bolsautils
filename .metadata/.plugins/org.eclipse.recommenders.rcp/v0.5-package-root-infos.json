@@ -1,0 +1,262 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "672ba663444264a9d9422b2f8655ea2900ebe368",
+    "jarFileModificationDate": "2012-09-19T14:22:13-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "12a8e4be8e2bacf826421117228e4c61de493ecd",
+    "jarFileModificationDate": "2012-09-19T14:17:30-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ba14379aeb1f1bcbf475c997e3a4a73ffae901e9",
+    "jarFileModificationDate": "2012-09-19T14:16:33-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d5ac728542df78c03511fc567f56701f612a236f",
+    "jarFileModificationDate": "2012-09-19T14:16:36-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "46be5c2959daac1c36e895a135a30a56c2ed14ad",
+    "jarFileModificationDate": "2012-09-19T14:22:13-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5320e6ea165e14f3e236e884c11f433d4a56a770",
+    "jarFileModificationDate": "2012-09-19T14:18:00-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "net.sourceforge.htmlcleaner.htmlcleaner",
+    "version": {
+      "major": 2,
+      "minor": 5,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6b52747d326cd212e6e0a148a556394f10bf662a",
+    "jarFileModificationDate": "2013-05-20T21:07:18-03:00",
+    "location": "/home/gbasilio/Dropbox/workspace/TextClassifier/ImportersAndUpdaters/lib/htmlcleaner-2.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1e6f4ed876c985f14ee4769030f5d3384f6900b5",
+    "jarFileModificationDate": "2012-09-19T14:06:02-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/pulse-java.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jdom-1.1.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8bdfeb39fa929c35f5e4f0b02d34350db39a1efc",
+    "jarFileModificationDate": "2012-11-23T07:45:53-02:00",
+    "location": "/home/gbasilio/Dropbox/workspace/TextClassifier/TextClassifier/lib/jdom-1.1.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "rome.rome",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "681104ed3e525037272533218185afbea3e40d04",
+    "jarFileModificationDate": "2012-11-23T07:35:09-02:00",
+    "location": "/home/gbasilio/Dropbox/workspace/TextClassifier/TextClassifier/lib/rome-1.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fd6a55acb8dc5d48167ed5b1db672532ba28d638",
+    "jarFileModificationDate": "2012-09-19T14:15:30-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f317c1b846ab01a1c00d849881778a47a7e728bf",
+    "jarFileModificationDate": "2012-09-20T06:21:42-03:00",
+    "location": "/usr/share/java/java-atk-wrapper.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.lang3",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "905075e6c80f206bbe6cf1e809d2caa69f420c76",
+    "jarFileModificationDate": "2011-11-10T05:00:26-02:00",
+    "location": "/home/gbasilio/Dropbox/workspace/TextClassifier/TextClassifier/lib/commons-lang3-3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.math",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5f8d1d720333aa9a7dee1c949ea70d9ed7da6106",
+    "jarFileModificationDate": "2012-03-05T07:12:00-03:00",
+    "location": "/home/gbasilio/Dropbox/workspace/TextClassifier/ImportersAndUpdaters/lib/commons-math3-3.0.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c82fece6f6d060c2c1ddbf1f9e510615fb0a2463",
+    "jarFileModificationDate": "2012-09-19T14:22:13-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "postgresql-9.2-1000.jdbc4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f0b1664d1bc0eb30bcb8a3a1bac40d9f5b0900a2",
+    "jarFileModificationDate": "2012-09-27T17:04:18-03:00",
+    "location": "/home/gbasilio/Dropbox/workspace/TextClassifier/ImportersAndUpdaters/lib/postgresql-9.2-1000.jdbc4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7329802b68e5e4d76db7901a61779dc703af1559",
+    "jarFileModificationDate": "2012-09-19T14:22:13-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a4ce2230ba6cfd3d01765cbeaeb1cd55901a6e7e",
+    "jarFileModificationDate": "2012-09-19T14:15:23-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.lang3",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "905075e6c80f206bbe6cf1e809d2caa69f420c76",
+    "jarFileModificationDate": "2011-11-10T05:00:26-02:00",
+    "location": "/home/gbasilio/Dropbox/workspace/TextClassifier/ImportersAndUpdaters/lib/commons-lang3-3.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "daead7f20b637eb232d32e8153a8fcc4745f2284",
+    "jarFileModificationDate": "2012-09-19T14:16:34-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  }
+]

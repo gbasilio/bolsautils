@@ -1,0 +1,21 @@
+package com.textclassifier;
+
+public class a {
+	
+	public static void main(String[] args) {
+		double a = 206;
+		
+		int c = 0;
+		while (a > 0){
+//		while ( c < 35){
+			a = a * 1.04;
+			a = a - ;
+			c++;
+		}
+		
+		
+		System.out.println(a);
+		System.err.println(c);
+	}
+
+}

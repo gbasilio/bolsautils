@@ -1,0 +1,5 @@
+1362703807890	Rename local variable 'listaAcoes'
+1362705135354	Rename method 'populateMoreThan10DaysAboveIbovespa'
+1362706041927	Rename method 'populateMoreThan15DaysBelowIbovespa'
+1362706052784	Rename local variable 'last15DaysBelowIbovespa'
+1362782680562	Copy compilation unit

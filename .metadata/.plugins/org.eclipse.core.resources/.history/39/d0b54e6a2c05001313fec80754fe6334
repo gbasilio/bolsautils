@@ -1,0 +1,5 @@
+package br.com.opussoftware.osgitest.internal;
+
+public class MyTodoServiceImpl {
+
+}

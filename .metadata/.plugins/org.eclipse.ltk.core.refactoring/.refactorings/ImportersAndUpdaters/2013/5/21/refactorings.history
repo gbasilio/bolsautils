@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FundamentusImporter.java&apos; to &apos;br.gustavo.importers.FundamentusImporter.java&apos;&#x0A;- Original project: &apos;ImportersAndUpdaters&apos;&#x0A;- Destination element: &apos;br.gustavo.importers.FundamentusImporter.java&apos;&#x0A;- Original element: &apos;br.gustavo.importers.FundamentusImporter.java&apos;" description="Copy compilation unit" destination="/src&lt;br.gustavo.importers{FundamentusImporter.java" element1="/src&lt;br.gustavo.importers{FundamentusImporter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1369093171029" units="1" version="1.0"/>
+</session>
