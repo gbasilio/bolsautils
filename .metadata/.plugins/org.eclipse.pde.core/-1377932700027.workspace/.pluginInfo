@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map>
-	<bundle bundleID="796" localization="OSGI-INF/l10n/bundle" name="Service" project="br.com.opussoftware.todo.service"/>
-	<bundle bundleID="792" class="br.com.opussoftware.firstbundle.Activator" localization="OSGI-INF/l10n/bundle" name="Firstbundle" project="br.com.opussoftware.firstbundle"/>
-	<bundle bundleID="795" localization="OSGI-INF/l10n/bundle" name="Model" project="br.com.opussoftware.todo.model"/>
-</map>
