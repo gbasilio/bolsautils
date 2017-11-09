@@ -8,10 +8,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import br.gustavo.commons.ConverterUtils;
+import br.gustavo.types.StockFundamentals;
 import br.gustavo.types.StockQuote;
 
 /**
@@ -39,7 +38,7 @@ public class LoadFromDB {
 	 */
 	public static List<StockQuote> load(String symbol, Date startDate, Date endDate) throws Exception{
 
-		Date inicio = new Date();
+//		Date inicio = new Date();
 
 		List<StockQuote> listaRetorno = new ArrayList<StockQuote>();
 
@@ -105,6 +104,66 @@ public class LoadFromDB {
 			throw new IllegalArgumentException();
 		}
 	}
+	
+	public static List<StockFundamentals> loadFundamentals(String symbol, Date startDate, Date endDate) throws Exception{
+//		Date inicio = new Date();
+
+		List<StockFundamentals> listaRetorno = new ArrayList<StockFundamentals>();
+
+		Connection conn = StockDbUtils.getConnection();
+		PreparedStatement ps = conn.prepareStatement("SELECT * FROM stock_fundamentals " +
+				"WHERE UPPER(TRIM(symbol))=UPPER(TRIM(?)) AND data >= ? AND data <= ? ORDER BY data ASC");
+
+		ps.setString(1, symbol);
+		if (startDate != null){
+			ps.setDate(2, new java.sql.Date(startDate.getTime()));
+		}
+		else{
+			ps.setDate(2, new java.sql.Date(0));
+		}
+		if (endDate != null){
+			ps.setDate(3, new java.sql.Date(endDate.getTime()));
+		}
+		else{
+			ps.setDate(3, new java.sql.Date(new Date().getTime()));
+		}
+
+		ResultSet rs = ps.executeQuery();
+
+		int c=0;
+		while(rs.next()){
+			c++;
+			StockFundamentals stockFundamentals = new StockFundamentals();
+			stockFundamentals.setSymbol(rs.getString("symbol"));
+			stockFundamentals.setP_l_ratio(rs.getDouble("p_l_ratio"));
+			stockFundamentals.setP_vp_ratio(rs.getDouble("p_vp_ratio"));
+			stockFundamentals.setPrice_sales_ratio(rs.getDouble("price_sales_ratio"));
+			stockFundamentals.setDivyield(rs.getDouble("divyield"));
+			stockFundamentals.setPrice_ativos_ratio(rs.getDouble("price_ativos_ratio"));
+			stockFundamentals.setPrice_capgiro_ratio(rs.getDouble("price_capgiro_ratio"));
+			stockFundamentals.setPrice_ebit_ratio(rs.getDouble("price_ebit_ratio"));
+			stockFundamentals.setPrice_ativo_circ_liq_ratio(rs.getDouble("price_ativo_circ_liq_ratio"));
+			stockFundamentals.setEv_ebit_ratio(rs.getDouble("ev_ebit_ratio"));
+			stockFundamentals.setMrg_ebit(rs.getDouble("mrg_ebit"));
+			stockFundamentals.setMgr_liq(rs.getDouble("mgr_liq"));
+			stockFundamentals.setLiquidez_corr(rs.getDouble("liquidez_corr"));
+			stockFundamentals.setRoic(rs.getDouble("roic"));
+			stockFundamentals.setRoe(rs.getDouble("roe"));
+			stockFundamentals.setLiq_2_meses(rs.getDouble("liq_2_meses"));
+			stockFundamentals.setPatr_liq(rs.getDouble("patr_liq"));
+			stockFundamentals.setDivbruta_patrimonio_ratio(rs.getDouble("divbruta_patrimonio_ratio"));
+			stockFundamentals.setCresc_receita_ult_5_anos(rs.getDouble("cresc_receita_ult_5_anos"));
+			stockFundamentals.setDate(rs.getDate("data"));
+			listaRetorno.add(stockFundamentals);
+		}
+//		System.out.println(c);
+
+//		System.out.println((new Date().getTime() - inicio.getTime()));
+
+
+		return listaRetorno;
+	}
+
 	
 
 //	public static void main(String[] args) throws Exception{
