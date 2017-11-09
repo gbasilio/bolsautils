@@ -1,0 +1,94 @@
+
+                <table id="tblQuotes" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <th>
+                            Data
+                        </th>
+                        <th>
+                            Hist&#243;rico
+                        </th>
+                        <th>
+                            Fech.
+                        </th>
+                        <th>
+                            Var.Dia (%)
+                        </th>
+                        <th>
+                            Abertura
+                        </th>
+                        <th>
+                            M&#237;nimo
+                        </th>
+                        <th>
+                            Medio
+                        </th>
+                        <th>
+                            M&#225;ximo
+                        </th>
+                        <th>
+                            Volume
+                        </th>
+                        <th>
+                            Neg&#243;cios
+                        </th>
+                    </tr>
+            
+                </table>
+            
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Download
+</title></head>
+<body>
+    <form method="post" action="download.aspx?dtIni=01%2f01%2f2000&amp;dtFinish=31%2f12%2f2004&amp;Ativo=EZTC3&amp;Semana=null&amp;Per=null&amp;type=2&amp;Stock=EZTC3&amp;StockType=1" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA4NDg1MjM4NGRkgVcO0ONu6OKroA3guCiaBG6tJ3w=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C0CE3640" />
+    <div>
+        
+                <table id="tblQuotes" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <th>
+                            Data
+                        </th>
+                        <th>
+                            Hist&#243;rico
+                        </th>
+                        <th>
+                            Fech.
+                        </th>
+                        <th>
+                            Var.Dia (%)
+                        </th>
+                        <th>
+                            Abertura
+                        </th>
+                        <th>
+                            M&#237;nimo
+                        </th>
+                        <th>
+                            Medio
+                        </th>
+                        <th>
+                            M&#225;ximo
+                        </th>
+                        <th>
+                            Volume
+                        </th>
+                        <th>
+                            Neg&#243;cios
+                        </th>
+                    </tr>
+            
+                </table>
+            
+        <!--Repeater de indices -->
+        
+        <!--Repeater de moedas -->
+        
+    </div>
+    </form>
+</body>
+</html>
