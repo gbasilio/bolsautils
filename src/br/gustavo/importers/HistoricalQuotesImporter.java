@@ -24,7 +24,7 @@ public class HistoricalQuotesImporter {
 //	private final static String FILE = "/home/gbasilio/Desktop/bovespa/COTAHIST_A2011.TXT";
 //	private final static String FILE = "/home/gbasilio/Desktop/bovespa/COTAHIST_A2012.TXT";
 //	private final static String FILE = "/home/gbasilio/Desktop/bovespa/COTAHIST_A2013.TXT";
-	private final static String FILE = "/home/rodrigo/Downloads/hist_ibovespa/COTAHIST_A2017.TXT";
+	private final static String FILE = "/home/rodrigo/Downloads/hist_ibovespa/COTAHIST_A2018.TXT";
 	
 //		private final static String FILE  = "C:\\Users\\gbasilio\\Desktop\\bovespa\\COTAHIST_A2003.TXT";
 //		private final static String FILE  = "C:\\Users\\gbasilio\\Desktop\\bovespa\\COTAHIST_A2004.TXT";
@@ -148,6 +148,8 @@ public class HistoricalQuotesImporter {
 			}
 			linha = br.readLine();
 		}
+		
+		conn.commit();
 		
 		printInfo();
 	}
